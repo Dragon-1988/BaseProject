@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SimpleCollectionViewCell" customModule="BaseProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="53"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="42" height="53"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHd-SZ-M9K">
+                        <rect key="frame" x="0.0" y="0.0" width="42" height="53"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ers-Ia-1Gl">
+                                <rect key="frame" x="0.0" y="0.0" width="42" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="FqR-C3-ZEW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ers-Ia-1Gl" secondAttribute="trailing" id="N7v-38-EjS"/>
+                            <constraint firstItem="Ers-Ia-1Gl" firstAttribute="top" secondItem="DHd-SZ-M9K" secondAttribute="top" id="iBj-Qp-V3a"/>
+                            <constraint firstItem="Ers-Ia-1Gl" firstAttribute="leading" secondItem="DHd-SZ-M9K" secondAttribute="leading" id="lcb-Ii-Tda"/>
+                            <constraint firstAttribute="bottom" secondItem="Ers-Ia-1Gl" secondAttribute="bottom" id="q9p-NC-Hkr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DHd-SZ-M9K" secondAttribute="trailing" id="VrG-uZ-vYS"/>
+                <constraint firstItem="DHd-SZ-M9K" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="X0v-h8-VcD"/>
+                <constraint firstAttribute="bottom" secondItem="DHd-SZ-M9K" secondAttribute="bottom" id="d2t-T8-Yl6"/>
+                <constraint firstItem="DHd-SZ-M9K" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kgf-5n-Cui"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="42" height="53"/>
+            <connections>
+                <outlet property="maxWidthConstraint" destination="FqR-C3-ZEW" id="MIh-R3-1Ja"/>
+                <outlet property="titleLb" destination="Ers-Ia-1Gl" id="UCH-Ri-ieM"/>
+            </connections>
+            <point key="canvasLocation" x="126.08695652173914" y="113.50446428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -13,6 +13,10 @@
 		EC3201DD239016E90043A84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3201DB239016E90043A84C /* Main.storyboard */; };
 		EC3201DF239016EB0043A84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3201DE239016EB0043A84C /* Assets.xcassets */; };
 		EC3201E2239016EB0043A84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3201E0239016EB0043A84C /* LaunchScreen.storyboard */; };
+		EC3201ED239017ED0043A84C /* SelfResizingCellInCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201EB239017ED0043A84C /* SelfResizingCellInCollectionView.swift */; };
+		EC3201EE239017ED0043A84C /* SelfResizingCellInCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3201EC239017ED0043A84C /* SelfResizingCellInCollectionView.xib */; };
+		EC3201F323901E370043A84C /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201F123901E370043A84C /* SimpleCollectionViewCell.swift */; };
+		EC3201F423901E370043A84C /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3201F223901E370043A84C /* SimpleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EC3201DE239016EB0043A84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3201E1239016EB0043A84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3201E3239016EB0043A84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3201EB239017ED0043A84C /* SelfResizingCellInCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfResizingCellInCollectionView.swift; sourceTree = "<group>"; };
+		EC3201EC239017ED0043A84C /* SelfResizingCellInCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfResizingCellInCollectionView.xib; sourceTree = "<group>"; };
+		EC3201F123901E370043A84C /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC3201F223901E370043A84C /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		EC3201D4239016E90043A84C /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				EC3201EF23901E070043A84C /* MyCell */,
+				EC3201E9239017370043A84C /* MyCustom */,
 				EC3201D5239016E90043A84C /* AppDelegate.swift */,
 				EC3201D7239016E90043A84C /* SceneDelegate.swift */,
 				EC3201D9239016E90043A84C /* ViewController.swift */,
@@ -65,6 +75,40 @@
 				EC3201E3239016EB0043A84C /* Info.plist */,
 			);
 			path = BaseProject;
+			sourceTree = "<group>";
+		};
+		EC3201E9239017370043A84C /* MyCustom */ = {
+			isa = PBXGroup;
+			children = (
+				EC3201EA239017710043A84C /* CustomView */,
+			);
+			path = MyCustom;
+			sourceTree = "<group>";
+		};
+		EC3201EA239017710043A84C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EC3201EB239017ED0043A84C /* SelfResizingCellInCollectionView.swift */,
+				EC3201EC239017ED0043A84C /* SelfResizingCellInCollectionView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EC3201EF23901E070043A84C /* MyCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC3201F023901E140043A84C /* SimpleCell */,
+			);
+			path = MyCell;
+			sourceTree = "<group>";
+		};
+		EC3201F023901E140043A84C /* SimpleCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC3201F123901E370043A84C /* SimpleCollectionViewCell.swift */,
+				EC3201F223901E370043A84C /* SimpleCollectionViewCell.xib */,
+			);
+			path = SimpleCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3201F423901E370043A84C /* SimpleCollectionViewCell.xib in Resources */,
+				EC3201EE239017ED0043A84C /* SelfResizingCellInCollectionView.xib in Resources */,
 				EC3201E2239016EB0043A84C /* LaunchScreen.storyboard in Resources */,
 				EC3201DF239016EB0043A84C /* Assets.xcassets in Resources */,
 				EC3201DD239016E90043A84C /* Main.storyboard in Resources */,
@@ -138,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3201ED239017ED0043A84C /* SelfResizingCellInCollectionView.swift in Sources */,
+				EC3201F323901E370043A84C /* SimpleCollectionViewCell.swift in Sources */,
 				EC3201DA239016E90043A84C /* ViewController.swift in Sources */,
 				EC3201D6239016E90043A84C /* AppDelegate.swift in Sources */,
 				EC3201D8239016E90043A84C /* SceneDelegate.swift in Sources */,
@@ -284,14 +332,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7LB33Q7495;
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MichaelSeven.dv.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.furarepi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = furarepi_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +352,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7LB33Q7495;
 				INFOPLIST_FILE = BaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MichaelSeven.dv.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.furarepi.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = furarepi_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
