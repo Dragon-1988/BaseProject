@@ -3,35 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EC3201D6239016E90043A84C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201D5239016E90043A84C /* AppDelegate.swift */; };
-		EC3201D8239016E90043A84C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201D7239016E90043A84C /* SceneDelegate.swift */; };
 		EC3201DA239016E90043A84C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201D9239016E90043A84C /* ViewController.swift */; };
 		EC3201DD239016E90043A84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3201DB239016E90043A84C /* Main.storyboard */; };
 		EC3201DF239016EB0043A84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3201DE239016EB0043A84C /* Assets.xcassets */; };
-		EC3201E2239016EB0043A84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3201E0239016EB0043A84C /* LaunchScreen.storyboard */; };
 		EC3201ED239017ED0043A84C /* SelfResizingCellInCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201EB239017ED0043A84C /* SelfResizingCellInCollectionView.swift */; };
 		EC3201EE239017ED0043A84C /* SelfResizingCellInCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3201EC239017ED0043A84C /* SelfResizingCellInCollectionView.xib */; };
 		EC3201F323901E370043A84C /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3201F123901E370043A84C /* SimpleCollectionViewCell.swift */; };
 		EC3201F423901E370043A84C /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3201F223901E370043A84C /* SimpleCollectionViewCell.xib */; };
+		EC85FF7223B1225E00AD3CC0 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC85FF7123B1225E00AD3CC0 /* SplashVC.swift */; };
+		EC89E82124028C8E005A8203 /* SampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = EC89E82024028C8E005A8203 /* SampleData.json */; };
+		EC96369123F8EAF9006B5287 /* SocialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369023F8EAF9006B5287 /* SocialManager.swift */; };
+		EC96369423F8EF9A006B5287 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369323F8EF9A006B5287 /* AppManager.swift */; };
+		EC96369623F8F527006B5287 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369523F8F527006B5287 /* Constants.swift */; };
+		EC96369823F8F8F3006B5287 /* ViewControllerMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369723F8F8F3006B5287 /* ViewControllerMatching.swift */; };
+		EC96369A23F8FAE0006B5287 /* SocialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369923F8FAE0006B5287 /* SocialVC.swift */; };
+		EC96369C23F9021B006B5287 /* SocialVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369B23F9021B006B5287 /* SocialVM.swift */; };
+		F78F4707F71FE3600F5818A8 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FC27173C27107BE57BBA5F /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06FC27173C27107BE57BBA5F /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A0D070256A059633564B04 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C72A0A6ED74D6D2F19E8AEB4 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		EC3201D2239016E90043A84C /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3201D5239016E90043A84C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC3201D7239016E90043A84C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC3201D9239016E90043A84C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC3201DC239016E90043A84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC3201DE239016EB0043A84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC3201E1239016EB0043A84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3201E3239016EB0043A84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3201EB239017ED0043A84C /* SelfResizingCellInCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfResizingCellInCollectionView.swift; sourceTree = "<group>"; };
 		EC3201EC239017ED0043A84C /* SelfResizingCellInCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfResizingCellInCollectionView.xib; sourceTree = "<group>"; };
 		EC3201F123901E370043A84C /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
 		EC3201F223901E370043A84C /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC85FF7123B1225E00AD3CC0 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		EC89E82024028C8E005A8203 /* SampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SampleData.json; sourceTree = "<group>"; };
+		EC96369023F8EAF9006B5287 /* SocialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialManager.swift; sourceTree = "<group>"; };
+		EC96369323F8EF9A006B5287 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		EC96369523F8F527006B5287 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC96369723F8F8F3006B5287 /* ViewControllerMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMatching.swift; sourceTree = "<group>"; };
+		EC96369923F8FAE0006B5287 /* SocialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialVC.swift; sourceTree = "<group>"; };
+		EC96369B23F9021B006B5287 /* SocialVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78F4707F71FE3600F5818A8 /* Pods_BaseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B71EFCE0785DC4E3455727C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06FC27173C27107BE57BBA5F /* Pods_BaseProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E355C92E3CCFBB4F4F6EB5D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78A0D070256A059633564B04 /* Pods-BaseProject.debug.xcconfig */,
+				C72A0A6ED74D6D2F19E8AEB4 /* Pods-BaseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC3201C9239016E90043A84C = {
 			isa = PBXGroup;
 			children = (
+				EC89E82024028C8E005A8203 /* SampleData.json */,
 				EC3201D4239016E90043A84C /* BaseProject */,
 				EC3201D3239016E90043A84C /* Products */,
+				E355C92E3CCFBB4F4F6EB5D0 /* Pods */,
+				B71EFCE0785DC4E3455727C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,14 +101,16 @@
 		EC3201D4239016E90043A84C /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				EC96369223F8EF77006B5287 /* Managers */,
+				EC96368F23F8EAD5006B5287 /* Common */,
+				EC85FF7023B1095700AD3CC0 /* Base */,
+				EC85FF6F23B108FA00AD3CC0 /* AppModule */,
 				EC3201EF23901E070043A84C /* MyCell */,
 				EC3201E9239017370043A84C /* MyCustom */,
 				EC3201D5239016E90043A84C /* AppDelegate.swift */,
-				EC3201D7239016E90043A84C /* SceneDelegate.swift */,
 				EC3201D9239016E90043A84C /* ViewController.swift */,
 				EC3201DB239016E90043A84C /* Main.storyboard */,
 				EC3201DE239016EB0043A84C /* Assets.xcassets */,
-				EC3201E0239016EB0043A84C /* LaunchScreen.storyboard */,
 				EC3201E3239016EB0043A84C /* Info.plist */,
 			);
 			path = BaseProject;
@@ -111,6 +150,41 @@
 			path = SimpleCell;
 			sourceTree = "<group>";
 		};
+		EC85FF6F23B108FA00AD3CC0 /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				EC96369923F8FAE0006B5287 /* SocialVC.swift */,
+				EC96369B23F9021B006B5287 /* SocialVM.swift */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+		EC85FF7023B1095700AD3CC0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC85FF7123B1225E00AD3CC0 /* SplashVC.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EC96368F23F8EAD5006B5287 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC96369023F8EAF9006B5287 /* SocialManager.swift */,
+				EC96369523F8F527006B5287 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EC96369223F8EF77006B5287 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EC96369323F8EF9A006B5287 /* AppManager.swift */,
+				EC96369723F8F8F3006B5287 /* ViewControllerMatching.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3201E6239016EB0043A84C /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
+				0987A84B3528FA022DBB5F9D /* [CP] Check Pods Manifest.lock */,
 				EC3201CE239016E90043A84C /* Sources */,
 				EC3201CF239016E90043A84C /* Frameworks */,
 				EC3201D0239016E90043A84C /* Resources */,
+				F132857726918F8F280BB7C8 /* [CP] Embed Pods Frameworks */,
+				3CE88B65FD5AF6C46DB9461F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,14 +247,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC3201F423901E370043A84C /* SimpleCollectionViewCell.xib in Resources */,
+				EC89E82124028C8E005A8203 /* SampleData.json in Resources */,
 				EC3201EE239017ED0043A84C /* SelfResizingCellInCollectionView.xib in Resources */,
-				EC3201E2239016EB0043A84C /* LaunchScreen.storyboard in Resources */,
 				EC3201DF239016EB0043A84C /* Assets.xcassets in Resources */,
 				EC3201DD239016E90043A84C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0987A84B3528FA022DBB5F9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CE88B65FD5AF6C46DB9461F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F132857726918F8F280BB7C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC3201CE239016E90043A84C /* Sources */ = {
@@ -186,9 +322,15 @@
 			files = (
 				EC3201ED239017ED0043A84C /* SelfResizingCellInCollectionView.swift in Sources */,
 				EC3201F323901E370043A84C /* SimpleCollectionViewCell.swift in Sources */,
+				EC96369A23F8FAE0006B5287 /* SocialVC.swift in Sources */,
 				EC3201DA239016E90043A84C /* ViewController.swift in Sources */,
+				EC96369123F8EAF9006B5287 /* SocialManager.swift in Sources */,
 				EC3201D6239016E90043A84C /* AppDelegate.swift in Sources */,
-				EC3201D8239016E90043A84C /* SceneDelegate.swift in Sources */,
+				EC96369C23F9021B006B5287 /* SocialVM.swift in Sources */,
+				EC85FF7223B1225E00AD3CC0 /* SplashVC.swift in Sources */,
+				EC96369423F8EF9A006B5287 /* AppManager.swift in Sources */,
+				EC96369623F8F527006B5287 /* Constants.swift in Sources */,
+				EC96369823F8F8F3006B5287 /* ViewControllerMatching.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +343,6 @@
 				EC3201DC239016E90043A84C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC3201E0239016EB0043A84C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC3201E1239016EB0043A84C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -330,12 +464,14 @@
 		};
 		EC3201E7239016EB0043A84C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A0D070256A059633564B04 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7LB33Q7495;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,12 +486,14 @@
 		};
 		EC3201E8239016EB0043A84C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72A0A6ED74D6D2F19E8AEB4 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7LB33Q7495;
 				INFOPLIST_FILE = BaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

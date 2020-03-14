@@ -1,0 +1,38 @@
+{
+    "tab_bar": [],
+    "menu": {
+        "top": [],
+        "bottom": [
+            {
+                "menu_title": "プロフィール",
+                "icon": "f-setting-h22",
+                "id": 0,
+                "action": "f_profile"
+            },
+            {
+                "menu_title": "機種変更",
+                "icon": "model-change-h22",
+                "id": 1,
+                "action": "f_model_change"
+            },
+            {
+                "menu_title": "プライバシーポリシー",
+                "icon": "privacy-h22",
+                "id": 3,
+                "action": "f_privacy"
+            },
+            {
+                "menu_title": "アプリ情報",
+                "icon": "ic_app_info",
+                "id": 5,
+                "action": "f_app_info"
+            },
+            {
+                "menu_title": "退会",
+                "icon": "exit-h22",
+                "id": 4,
+                "action": "f_logout"
+            }
+        ]
+    }
+}

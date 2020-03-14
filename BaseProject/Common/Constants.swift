@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+// MARK: - UserDefault
+public let kAccessToken = "kAccessToken"
+
+// MARK: - Standard UserDefault
+public let standardUserDefaults = UserDefaults.standard
