@@ -21,6 +21,8 @@ extension AppManager {
         switch key {
         case "f_social":
             viewController = SocialVC()
+        case "f_splash":
+            viewController = SplashVC()
         default:
             viewController = nil
         }
