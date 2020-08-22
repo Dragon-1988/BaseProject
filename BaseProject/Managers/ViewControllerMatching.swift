@@ -23,6 +23,8 @@ extension AppManager {
             viewController = SocialVC()
         case "f_splash":
             viewController = SplashVC()
+        case "f_custom_scrollview":
+            viewController = CustomScrollVC()
         default:
             viewController = nil
         }

@@ -75,7 +75,14 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
              "users":users
          ]
          
-         let db = Firestore.firestore().collection("Chats")
+        let settings = FirestoreSettings()
+        settings.isPersistenceEnabled = true
+        settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
+        
+        let firestore = Firestore.firestore()
+        firestore.settings = settings
+        let db = firestore.collection("Collection_Name_CR7")
+
          db.addDocument(data: data) { (error) in
              if let error = error {
                  print("Unable to create chat! \(error)")
@@ -89,12 +96,18 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
     func loadChat() {
         
         //Fetch all the chats which has current user in it
-        let db = Firestore.firestore().collection("Chats")
+//        let db = Firestore.firestore().collection("Chats")
+        let settings = FirestoreSettings()
+        settings.isPersistenceEnabled = true
+        settings.cacheSizeBytes = FirestoreCacheSizeUnlimited
+        
+        let firestore = Firestore.firestore()
+        firestore.settings = settings
+        let db = firestore.collection("Collection_Name_CR7")
                 .whereField("users", arrayContains: Auth.auth().currentUser?.uid ?? "Not Found User 1")
         
         
         db.getDocuments { (chatQuerySnap, error) in
-            
             if let error = error {
                 print("Error: \(error)")
                 return
@@ -127,8 +140,25 @@ class ChatViewController: MessagesViewController, InputBarAccessoryViewDelegate,
                                 self.docReference = doc.reference
                                 //fetch it's thread collection
                                  doc.reference.collection("thread")
-                                    .order(by: "created", descending: false)
+//                                    .order(by: "created", descending: false)
                                     .addSnapshotListener(includeMetadataChanges: true, listener: { (threadQuery, error) in
+                                        guard let snapshot = threadQuery else { return }
+                                        
+                                        
+                                        for diff in snapshot.documentChanges {
+                                            if diff.type == .added  {
+                                                print("New data: \(diff.document.data())")
+                                            }
+                                            print("diff: \(diff.document)")
+                                        }
+                                        
+                                        let source = snapshot.metadata.isFromCache ? "local" : "server"
+                                        print("Metadata: Data fetch from \(source)")
+                                        
+                                        for message in snapshot.documents {
+                                            print("Metadata: Data \(message)")
+                                        }
+                                        
                                         if let error = error {
                                             print("Error: \(error)")
                                             return

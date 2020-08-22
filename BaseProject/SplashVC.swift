@@ -19,6 +19,7 @@ import GoogleSignIn
 class SplashVC: UIViewController {
     
     let targetKey = "f_social"
+//    let targetKey = "f_custom_scrollview"
     
     let disposeBag = DisposeBag()
     
@@ -42,6 +43,10 @@ class SplashVC: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+//        gotoStudentScreen()
+//        if let vc = AppManager.shared.viewController(forKey: targetKey) {
+//            present(vc, animated: true, completion: nil)
+//        }
     }
 }
 
@@ -97,6 +102,9 @@ extension SplashVC {
                 guard let self = self else { return }
 //                self.signInWithGG()
                 self.googleSignInPressed()
+//                if let vc = AppManager.shared.viewController(forKey: self.targetKey) {
+//                    self.present(vc, animated: true, completion: nil)
+//                }
             })
             .disposed(by: disposeBag)
         
@@ -191,5 +199,10 @@ extension SplashVC: GIDSignInDelegate {
         let chatVC = ChatViewController()
 //        self.navigationController?.pushViewController(chatVC, animated: true)
         self.present(chatVC, animated: true, completion: nil)
+    }
+    
+    func gotoStudentScreen() {
+        let studentVC = StudentManagerVC()
+        self.navigationController?.pushViewController(studentVC, animated: true)
     }
 }
