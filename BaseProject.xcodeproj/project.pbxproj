@@ -32,7 +32,6 @@
 		EC96369C23F9021B006B5287 /* SocialVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96369B23F9021B006B5287 /* SocialVM.swift */; };
 		ECA3F08B241E47810034645A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3F08A241E47810034645A /* Log.swift */; };
 		ECA51E1A242B157000DA7207 /* FCMNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA51E19242B157000DA7207 /* FCMNotificationManager.swift */; };
-		ECB11E6524C6DA30006A1623 /* Deassociate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB11E6424C6DA30006A1623 /* Deassociate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,7 +65,6 @@
 		ECA3F08A241E47810034645A /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		ECA51E15242B071600DA7207 /* BaseProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BaseProject.entitlements; sourceTree = "<group>"; };
 		ECA51E19242B157000DA7207 /* FCMNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCMNotificationManager.swift; sourceTree = "<group>"; };
-		ECB11E6424C6DA30006A1623 /* Deassociate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Deassociate.swift; path = ../../../../../../Users/applefamily/Workspace/OwlSystem/owlsystem/AppModules/Chat/Others/SurveyView/Deassociate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,7 +279,6 @@
 		ECB11E6324C6DA16006A1623 /* Server_Data */ = {
 			isa = PBXGroup;
 			children = (
-				ECB11E6424C6DA30006A1623 /* Deassociate.swift */,
 			);
 			path = Server_Data;
 			sourceTree = "<group>";
@@ -447,7 +444,6 @@
 				EC70237F242F5730006824C3 /* StudentManagerVC.swift in Sources */,
 				EC22300E241C8FBB00488475 /* FUtility.swift in Sources */,
 				EC70237D242F56FD006824C3 /* StudentModel.swift in Sources */,
-				ECB11E6524C6DA30006A1623 /* Deassociate.swift in Sources */,
 				ECA51E1A242B157000DA7207 /* FCMNotificationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

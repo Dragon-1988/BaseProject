@@ -179,7 +179,6 @@ Pods/RxSwiftExt/Source/Tools/curry.swift
 Pods/OAuthSwift/Sources/Data+OAuthSwift.swift
 Pods/Cache/Source/Shared/Library/DataSerializer.swift
 Pods/SwiftDate/Sources/SwiftDate/Date/Date+Compare.swift
-Pods/SwiftDate/Sources/SwiftDate/Date/Date+Components.swift
 Pods/SwiftDate/Sources/SwiftDate/Date/Date+Create.swift
 Pods/Cache/Source/Shared/Extensions/Date+Extensions.swift
 Pods/SwiftDate/Sources/SwiftDate/Date/Date+Math.swift
